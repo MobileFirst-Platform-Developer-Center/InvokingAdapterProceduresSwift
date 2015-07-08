@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185BB1C4198FB1C00028354D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BB1C3198FB1C00028354D /* AppDelegate.swift */; };
+		185BB1C6198FB1C00028354D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BB1C5198FB1C00028354D /* ViewController.swift */; };
+		185BB1C9198FB1C00028354D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185BB1C7198FB1C00028354D /* Main.storyboard */; };
+		185BB1CB198FB1C00028354D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185BB1CA198FB1C00028354D /* Images.xcassets */; };
+		185BB248198FB4600028354D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185BB247198FB4600028354D /* SystemConfiguration.framework */; };
+		185BB24A198FB4670028354D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185BB249198FB4670028354D /* MobileCoreServices.framework */; };
+		185BB24C198FB4770028354D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185BB24B198FB4770028354D /* CoreData.framework */; };
+		185BB24E198FB4800028354D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185BB24D198FB4800028354D /* Security.framework */; };
+		185BB250198FB4880028354D /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 185BB24F198FB4880028354D /* libstdc++.6.dylib */; };
+		185BB252198FB48E0028354D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 185BB251198FB48E0028354D /* libz.dylib */; };
+		185BB258198FBDA70028354D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185BB257198FBDA70028354D /* CoreLocation.framework */; };
+		185BB25A198FBF890028354D /* MyConnectListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BB259198FBF890028354D /* MyConnectListener.swift */; };
+		19983C111AF8B1B40005363F /* WorklightAPI in Resources */ = {isa = PBXBuildFile; fileRef = 19983C101AF8B1B40005363F /* WorklightAPI */; };
+		19983C141AF8B1F20005363F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19983C131AF8B1F20005363F /* libc++.dylib */; };
+		19983C161AF8B1FA0005363F /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19983C151AF8B1FA0005363F /* IBMMobileFirstPlatformFoundation.framework */; };
+		19983C181AF8B1FD0005363F /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19983C171AF8B1FD0005363F /* sqlcipher.framework */; };
+		19B130391A25E3120023003B /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19B130381A25E3120023003B /* worklight.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185BB1BE198FB1C00028354D /* InvokingAdapterProceduresSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvokingAdapterProceduresSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185BB1C2198FB1C00028354D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185BB1C3198FB1C00028354D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		185BB1C5198FB1C00028354D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		185BB1C8198FB1C00028354D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185BB1CA198FB1C00028354D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		185BB247198FB4600028354D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		185BB249198FB4670028354D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		185BB24B198FB4770028354D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		185BB24D198FB4800028354D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		185BB24F198FB4880028354D /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		185BB251198FB48E0028354D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		185BB257198FBDA70028354D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		185BB259198FBF890028354D /* MyConnectListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConnectListener.swift; sourceTree = "<group>"; };
+		19983C101AF8B1B40005363F /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
+		19983C131AF8B1F20005363F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		19983C151AF8B1FA0005363F /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileFirstPlatformFoundation.framework; path = WorklightAPI/Frameworks/IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
+		19983C171AF8B1FD0005363F /* sqlcipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlcipher.framework; path = WorklightAPI/Frameworks/sqlcipher.framework; sourceTree = "<group>"; };
+		19B130381A25E3120023003B /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185BB1BB198FB1C00028354D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19983C161AF8B1FA0005363F /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				19983C181AF8B1FD0005363F /* sqlcipher.framework in Frameworks */,
+				185BB258198FBDA70028354D /* CoreLocation.framework in Frameworks */,
+				19983C141AF8B1F20005363F /* libc++.dylib in Frameworks */,
+				185BB252198FB48E0028354D /* libz.dylib in Frameworks */,
+				185BB250198FB4880028354D /* libstdc++.6.dylib in Frameworks */,
+				185BB24E198FB4800028354D /* Security.framework in Frameworks */,
+				185BB24C198FB4770028354D /* CoreData.framework in Frameworks */,
+				185BB24A198FB4670028354D /* MobileCoreServices.framework in Frameworks */,
+				185BB248198FB4600028354D /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185BB1B5198FB1C00028354D = {
+			isa = PBXGroup;
+			children = (
+				19983C101AF8B1B40005363F /* WorklightAPI */,
+				19983C121AF8B1D30005363F /* Frameworks */,
+				185BB1C0198FB1C00028354D /* InvokingAdapterProceduresSwift */,
+				185BB1BF198FB1C00028354D /* Products */,
+				197FD0501A23487000DCF5C6 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		185BB1BF198FB1C00028354D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185BB1BE198FB1C00028354D /* InvokingAdapterProceduresSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185BB1C0198FB1C00028354D /* InvokingAdapterProceduresSwift */ = {
+			isa = PBXGroup;
+			children = (
+				185BB1C3198FB1C00028354D /* AppDelegate.swift */,
+				185BB1C5198FB1C00028354D /* ViewController.swift */,
+				185BB1C7198FB1C00028354D /* Main.storyboard */,
+				185BB1CA198FB1C00028354D /* Images.xcassets */,
+				185BB1C1198FB1C00028354D /* Supporting Files */,
+				185BB259198FBF890028354D /* MyConnectListener.swift */,
+			);
+			path = InvokingAdapterProceduresSwift;
+			sourceTree = "<group>";
+		};
+		185BB1C1198FB1C00028354D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185BB1C2198FB1C00028354D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		197FD0501A23487000DCF5C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19B130381A25E3120023003B /* worklight.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19983C121AF8B1D30005363F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19983C171AF8B1FD0005363F /* sqlcipher.framework */,
+				19983C151AF8B1FA0005363F /* IBMMobileFirstPlatformFoundation.framework */,
+				19983C131AF8B1F20005363F /* libc++.dylib */,
+				185BB257198FBDA70028354D /* CoreLocation.framework */,
+				185BB251198FB48E0028354D /* libz.dylib */,
+				185BB24F198FB4880028354D /* libstdc++.6.dylib */,
+				185BB24D198FB4800028354D /* Security.framework */,
+				185BB24B198FB4770028354D /* CoreData.framework */,
+				185BB249198FB4670028354D /* MobileCoreServices.framework */,
+				185BB247198FB4600028354D /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185BB1BD198FB1C00028354D /* InvokingAdapterProceduresSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185BB1DA198FB1C00028354D /* Build configuration list for PBXNativeTarget "InvokingAdapterProceduresSwift" */;
+			buildPhases = (
+				185BB1BA198FB1C00028354D /* Sources */,
+				185BB1BB198FB1C00028354D /* Frameworks */,
+				185BB1BC198FB1C00028354D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvokingAdapterProceduresSwift;
+			productName = InvokingAdapterProceduresSwift;
+			productReference = 185BB1BE198FB1C00028354D /* InvokingAdapterProceduresSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185BB1B6198FB1C00028354D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = IBM;
+				TargetAttributes = {
+					185BB1BD198FB1C00028354D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 185BB1B9198FB1C00028354D /* Build configuration list for PBXProject "InvokingAdapterProceduresSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185BB1B5198FB1C00028354D;
+			productRefGroup = 185BB1BF198FB1C00028354D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185BB1BD198FB1C00028354D /* InvokingAdapterProceduresSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185BB1BC198FB1C00028354D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185BB1C9198FB1C00028354D /* Main.storyboard in Resources */,
+				19983C111AF8B1B40005363F /* WorklightAPI in Resources */,
+				185BB1CB198FB1C00028354D /* Images.xcassets in Resources */,
+				19B130391A25E3120023003B /* worklight.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185BB1BA198FB1C00028354D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185BB25A198FBF890028354D /* MyConnectListener.swift in Sources */,
+				185BB1C6198FB1C00028354D /* ViewController.swift in Sources */,
+				185BB1C4198FB1C00028354D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		185BB1C7198FB1C00028354D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185BB1C8198FB1C00028354D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185BB1D8198FB1C00028354D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		185BB1D9198FB1C00028354D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185BB1DB198FB1C00028354D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+				);
+				INFOPLIST_FILE = InvokingAdapterProceduresSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185BB1DC198FB1C00028354D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+				);
+				INFOPLIST_FILE = InvokingAdapterProceduresSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185BB1B9198FB1C00028354D /* Build configuration list for PBXProject "InvokingAdapterProceduresSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185BB1D8198FB1C00028354D /* Debug */,
+				185BB1D9198FB1C00028354D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185BB1DA198FB1C00028354D /* Build configuration list for PBXNativeTarget "InvokingAdapterProceduresSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185BB1DB198FB1C00028354D /* Debug */,
+				185BB1DC198FB1C00028354D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185BB1B6198FB1C00028354D /* Project object */;
+}
