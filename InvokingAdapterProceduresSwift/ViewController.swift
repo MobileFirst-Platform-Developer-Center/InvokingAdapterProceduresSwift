@@ -42,8 +42,8 @@ class ViewController: UIViewController {
     @IBAction func doInvokeREST(sender: AnyObject) {
         self.updateView("Invoking REST")
         NSLog("Invoking REST...")
-        let request = WLResourceRequest(URL: NSURL(string: "/adapters/RSSReader/getFeeds"), method: WLHttpMethodGet)
-        request.setQueryParameterValue("['technology']", forName: "params")
+        let request = WLResourceRequest(URL: NSURL(string: "/adapters/RSSReader/getFeed"), method: WLHttpMethodGet)
+        request.setQueryParameterValue("['MobileFirst_Platform']", forName: "params")
         request.sendWithCompletionHandler { (WLResponse response, NSError error) -> Void in
             var resultText = ""
             if(error != nil){
