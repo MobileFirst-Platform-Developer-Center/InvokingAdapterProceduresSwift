@@ -11,6 +11,8 @@ Follow the instructions in the tutorial(s) listed below.
 **iOS Swift**
 https://developer.ibm.com/mobilefirstplatform/documentation/getting-started-7-1/foundation/server-side-development-category/invoking-adapter-procedures-native-ios-swift-applications/
 
+> If you use Xcode 7 and iOS 9, make sure to either enable, or disable ATS support
+
 ### Supported Levels
 IBM MobileFirst Platform Foundation 7.1
 
