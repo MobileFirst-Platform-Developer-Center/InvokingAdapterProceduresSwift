@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         NSLog("Invoking REST...")
         let request = WLResourceRequest(URL: NSURL(string: "/adapters/RSSReader/getFeed"), method: WLHttpMethodGet)
         request.setQueryParameterValue("['MobileFirst_Platform']", forName: "params")
-        request.sendWithCompletionHandler { (WLResponse response, NSError error) -> Void in
+        request.sendWithCompletionHandler { (response, error) -> Void in
             var resultText = ""
             if(error != nil){
                 resultText = "Invocation failure. "
